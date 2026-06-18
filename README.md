@@ -34,4 +34,4 @@ While this project builds the foundational algorithmic "engine," the following a
 *   **Advanced ML Models**: Integrate advanced machine learning techniques, such as Matrix Factorization (SVD) or Neural Collaborative Filtering, to discover deeper hidden patterns.
 *   **Real-Time Processing**: Implement an event-streaming architecture (e.g., Apache Kafka) to update user histories and candidate scores instantaneously as users interact with items.
 *   **Business Logic Filters**: Add hard constraint filters post-generation (e.g., hiding out-of-stock items, or applying age-rating filters).
-*   **A/B Testing Framework**: Create an online routing system to test different scoring algorithms against each other in real-time to optimize for actual click-through rates.
+*   **A/B Testing Framework**: Create an online routing system to test different scoring algorithms against each other in real-time to optimize for actual click-through r
