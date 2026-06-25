@@ -26,4 +26,5 @@ jobs:
         
     - name: Run Tests and Coverage
       run: |
+        cd day29_project
         python -m pytest --cov=. -v
