@@ -3,6 +3,13 @@
 ## 🎥 Project Demo Video
 **[Click here to watch the Video Demo on YouTube](https://youtu.be/HBFy_2SbdT0)**
 
+## 🛠️ Software Testing & DevOps Integrations
+To ensure high code quality and deployment readiness, this project implements industry-standard testing and DevOps practices:
+
+*   **Continuous Integration (CI/CD):** A GitHub Actions pipeline (`.github/workflows/main.yml`) is configured to automatically set up a cloud environment and run the test suite on every push.
+*   **Automated Testing:** The project uses the `pytest` framework with dedicated test modules in the `tests/` directory, achieving high code coverage.
+*   **Containerization:** A `Dockerfile` is included to package the recommendation engine and its dependencies, ensuring it can be deployed consistently across any environment.
+
 ## 📖 Overview
 This project contains the core algorithmic components of a recommendation engine. These modules work together to calculate similarities, generate item candidates, score/rank them, and evaluate the quality of the recommendations. 
 
