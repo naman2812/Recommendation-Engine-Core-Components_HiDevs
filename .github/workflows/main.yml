@@ -26,4 +26,4 @@ jobs:
         
     - name: Run Tests and Coverage
       run: |
-        pytest --cov=. -v
+        python -m pytest --cov=. -v
